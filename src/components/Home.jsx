@@ -26,7 +26,7 @@ function Home() {
 
   const handleAdd = () => {
     let exist =
-      todoList.filter((item) => item.name === taskName).length > 0
+      todoList.filter((item) => item.title === taskName).length > 0
         ? true
         : false;
     if (!exist) {
